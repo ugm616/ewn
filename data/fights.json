@@ -1,0 +1,274 @@
+{
+  "tournament": {
+    "name": "GRAND SLAAM",
+    "subtitle": "GLOBAL CHAMPIONSHIP TOURNAMENT",
+    "year": 2026,
+    "tagline": "Four Companies. Four Athletes. One Champion.",
+    "hero": {
+      "kick": "THE WORLD'S GREATEST WRESTLING SHOWCASE",
+      "title": "GRAND SLAAM",
+      "subtitle": "The battle for global supremacy. Companies from around the world send four of their finest athletes to determine the undisputed best wrestling company on Earth."
+    },
+    "live": {
+      "videoId": "M7lc1UVf-VE",
+      "label": "GRAND SLAAM NIGHT ONE"
+    },
+    "info": {
+      "date": "March 2026",
+      "venue": "Global Arena",
+      "rules": "Teams of four compete. Each match is one member of one company against one member of another in a single-elimination bracket. When an athlete loses, they are eliminated from the tournament. When all four members of a company are eliminated, that company is out."
+    }
+  },
+  "teams": [
+    {
+      "id": "phoenix",
+      "name": "PHOENIX PRO WRESTLING",
+      "short": "PHOENIX",
+      "company": "Phoenix Pro Wrestling",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "color": "#d84315",
+      "motto": "Rise from the ashes",
+      "members": [
+        { "id": "axel-vaughn", "name": "Axel Vaughn", "nickname": "The Inferno", "role": "Captain", "height": "6'2\"", "weight": "245 lbs", "record": "18-3-1", "hometown": "Las Vegas, NV" },
+        { "id": "damon-cross", "name": "Damon Cross", "nickname": "The Hammer", "role": "Powerhouse", "height": "6'5\"", "weight": "285 lbs", "record": "22-6-0", "hometown": "Boston, MA" },
+        { "id": "rico-santana", "name": "Rico Santana", "nickname": "El Fuego", "role": "High-Flyer", "height": "5'9\"", "weight": "190 lbs", "record": "16-4-2", "hometown": "Miami, FL" },
+        { "id": "jax-marlow", "name": "Jax Marlow", "nickname": "The Viper", "role": "Submission Specialist", "height": "6'1\"", "weight": "220 lbs", "record": "14-2-0", "hometown": "New Orleans, LA" }
+      ]
+    },
+    {
+      "id": "kaiju",
+      "name": "KAIJU FEDERATION",
+      "short": "KAIJU",
+      "company": "Kaiju Federation",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "color": "#1e88e5",
+      "motto": "Unleash the beast",
+      "members": [
+        { "id": "kenji-nakamura", "name": "Kenji Nakamura", "nickname": "The Rising Sun", "role": "Captain", "height": "6'0\"", "weight": "230 lbs", "record": "25-5-0", "hometown": "Tokyo, Japan" },
+        { "id": "taro-yamada", "name": "Taro Yamada", "nickname": "The Wave", "role": "Technician", "height": "5'10\"", "weight": "205 lbs", "record": "19-7-1", "hometown": "Osaka, Japan" },
+        { "id": "shohei-tanaka", "name": "Shohei Tanaka", "nickname": "Tsunami", "role": "Powerhouse", "height": "6'4\"", "weight": "275 lbs", "record": "21-4-0", "hometown": "Fukuoka, Japan" },
+        { "id": "ren-ito", "name": "Ren Ito", "nickname": "The Phantom", "role": "High-Flyer", "height": "5'8\"", "weight": "185 lbs", "record": "17-3-2", "hometown": "Kyoto, Japan" }
+      ]
+    },
+    {
+      "id": "empire",
+      "name": "BRITISH EMPIRE WRESTLING",
+      "short": "EMPIRE",
+      "company": "British Empire Wrestling",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "color": "#6d4c41",
+      "motto": "Rule the ring",
+      "members": [
+        { "id": "alistair-graves", "name": "Lord Alistair Graves", "nickname": "The Aristocrat", "role": "Captain", "height": "6'3\"", "weight": "240 lbs", "record": "20-4-1", "hometown": "London, England" },
+        { "id": "reggie-whitmore", "name": "Reggie Whitmore", "nickname": "The Bulldog", "role": "Brawler", "height": "6'1\"", "weight": "250 lbs", "record": "23-8-0", "hometown": "Manchester, England" },
+        { "id": "danny-obrien", "name": "Danny O'Brien", "nickname": "The Emerald", "role": "High-Flyer", "height": "5'11\"", "weight": "200 lbs", "record": "15-5-3", "hometown": "Dublin, Ireland" },
+        { "id": "marcus-flint", "name": "Marcus Flint", "nickname": "The Anvil", "role": "Powerhouse", "height": "6'6\"", "weight": "290 lbs", "record": "18-6-1", "hometown": "Birmingham, England" }
+      ]
+    },
+    {
+      "id": "luchadores",
+      "name": "LUCHA LIBRE DEL MUNDO",
+      "short": "LUCHA",
+      "company": "Lucha Libre del Mundo",
+      "country": "Mexico",
+      "flag": "🇲🇽",
+      "color": "#8e24aa",
+      "motto": "Viva la lucha",
+      "members": [
+        { "id": "el-dorado", "name": "El Dorado", "nickname": "El Maestro", "role": "Captain", "height": "5'11\"", "weight": "215 lbs", "record": "27-6-0", "hometown": "Mexico City, MX" },
+        { "id": "rey-aguila", "name": "Rey Águila", "nickname": "The Eagle", "role": "High-Flyer", "height": "5'7\"", "weight": "178 lbs", "record": "24-5-2", "hometown": "Guadalajara, MX" },
+        { "id": "el-toro", "name": "El Toro", "nickname": "The Bull", "role": "Powerhouse", "height": "6'3\"", "weight": "265 lbs", "record": "19-7-1", "hometown": "Monterrey, MX" },
+        { "id": "el-fantasma", "name": "El Fantasma", "nickname": "The Ghost", "role": "Technician", "height": "5'10\"", "weight": "205 lbs", "record": "16-4-4", "hometown": "Puebla, MX" }
+      ]
+    },
+    {
+      "id": "kobra",
+      "name": "KOBRA KULT",
+      "short": "KOBRA",
+      "company": "Kobra Kult",
+      "country": "India",
+      "flag": "🇮🇳",
+      "color": "#43a047",
+      "motto": "Strike without mercy",
+      "members": [
+        { "id": "arjun-dev", "name": "Arjun Dev", "nickname": "The Cobra", "role": "Captain", "height": "6'1\"", "weight": "225 lbs", "record": "21-5-0", "hometown": "Mumbai, India" },
+        { "id": "ravi-shah", "name": "Ravi Shah", "nickname": "The Tiger", "role": "Striker", "height": "5'11\"", "weight": "210 lbs", "record": "18-4-2", "hometown": "New Delhi, India" },
+        { "id": "vikram-rathore", "name": "Vikram Rathore", "nickname": "The Fortress", "role": "Powerhouse", "height": "6'5\"", "weight": "280 lbs", "record": "20-8-1", "hometown": "Jaipur, India" },
+        { "id": "kiran-menon", "name": "Kiran Menon", "nickname": "The Serpent", "role": "Submission Specialist", "height": "5'10\"", "weight": "198 lbs", "record": "15-3-3", "hometown": "Kochi, India" }
+      ]
+    },
+    {
+      "id": "gladiator",
+      "name": "GLADIATOR CHAMPIONSHIP",
+      "short": "GLADIATOR",
+      "company": "Gladiator Championship",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "color": "#fdd835",
+      "motto": "Into the arena",
+      "members": [
+        { "id": "caio-ferreira", "name": "Caio Ferreira", "nickname": "The Juggernaut", "role": "Captain", "height": "6'3\"", "weight": "260 lbs", "record": "26-7-0", "hometown": "Rio de Janeiro, BR" },
+        { "id": "lucas-almeida", "name": "Lucas Almeida", "nickname": "The Storm", "role": "High-Flyer", "height": "5'9\"", "weight": "192 lbs", "record": "22-6-1", "hometown": "São Paulo, BR" },
+        { "id": "diego-rocha", "name": "Diego Rocha", "nickname": "The Pitbull", "role": "Brawler", "height": "6'0\"", "weight": "230 lbs", "record": "19-5-2", "hometown": "Salvador, BR" },
+        { "id": "marcelo-santos", "name": "Marcelo Santos", "nickname": "The Anaconda", "role": "Submission Specialist", "height": "6'2\"", "weight": "235 lbs", "record": "17-4-1", "hometown": "Belo Horizonte, BR" }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "TOKYO DOME WRESTLING",
+      "short": "TOKYO",
+      "company": "Tokyo Dome Wrestling",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "color": "#e91e63",
+      "motto": "Echoes of champions",
+      "members": [
+        { "id": "haruto-kato", "name": "Haruto Kato", "nickname": "The Dragon", "role": "Captain", "height": "6'1\"", "weight": "235 lbs", "record": "23-6-0", "hometown": "Sapporo, Japan" },
+        { "id": "yuki-mori", "name": "Yuki Mori", "nickname": "The Comet", "role": "High-Flyer", "height": "5'8\"", "weight": "182 lbs", "record": "20-4-2", "hometown": "Nagoya, Japan" },
+        { "id": "kenta-ishikawa", "name": "Kenta Ishikawa", "nickname": "The Mountain", "role": "Powerhouse", "height": "6'6\"", "weight": "300 lbs", "record": "18-7-1", "hometown": "Yokohama, Japan" },
+        { "id": "sora-takahashi", "name": "Sora Takahashi", "nickname": "The Wind", "role": "Technician", "height": "5'11\"", "weight": "205 lbs", "record": "16-5-3", "hometown": "Hiroshima, Japan" }
+      ]
+    },
+    {
+      "id": "aussie",
+      "name": "OUTBACK CHAMPIONSHIP WRESTLING",
+      "short": "OUTBACK",
+      "company": "Outback Championship Wrestling",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "color": "#ff7043",
+      "motto": "Survival of the fittest",
+      "members": [
+        { "id": "kane-mcallister", "name": "Kane McAllister", "nickname": "The Crocodile", "role": "Captain", "height": "6'4\"", "weight": "265 lbs", "record": "22-7-0", "hometown": "Sydney, AUS" },
+        { "id": "jack-bauer", "name": "Jack Bauer", "nickname": "The Boomerang", "role": "Striker", "height": "6'0\"", "weight": "215 lbs", "record": "17-5-2", "hometown": "Melbourne, AUS" },
+        { "id": "matt-doyle", "name": "Matt Doyle", "nickname": "The Roo", "role": "High-Flyer", "height": "5'10\"", "weight": "195 lbs", "record": "19-6-1", "hometown": "Brisbane, AUS" },
+        { "id": "ben-walters", "name": "Ben Walters", "nickname": "The Wombat", "role": "Powerhouse", "height": "6'3\"", "weight": "270 lbs", "record": "15-4-3", "hometown": "Perth, AUS" }
+      ]
+    }
+  ],
+  "fights": [
+    {
+      "id": "qa1",
+      "round": "Qualifier A",
+      "roundIndex": 0.1,
+      "teamA": "phoenix",
+      "teamB": "gladiator",
+      "fighterA": "rico-santana",
+      "fighterB": "lucas-almeida",
+      "date": "2026-02-20",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qa2",
+      "round": "Qualifier B",
+      "roundIndex": 0.2,
+      "teamA": "phoenix",
+      "teamB": "aussie",
+      "fighterA": "jax-marlow",
+      "fighterB": "jack-bauer",
+      "date": "2026-02-20",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qa3",
+      "round": "Qualifier C",
+      "roundIndex": 0.3,
+      "teamA": "phoenix",
+      "teamB": "luchadores",
+      "fighterA": "damon-cross",
+      "fighterB": "el-fantasma",
+      "date": "2026-02-21",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qf1",
+      "round": "Quarter-Final 1",
+      "roundIndex": 1,
+      "teamA": "phoenix",
+      "teamB": "kaiju",
+      "fighterA": "axel-vaughn",
+      "fighterB": "kenji-nakamura",
+      "date": "2026-03-01",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qf2",
+      "round": "Quarter-Final 2",
+      "roundIndex": 2,
+      "teamA": "empire",
+      "teamB": "luchadores",
+      "fighterA": "alistair-graves",
+      "fighterB": "el-dorado",
+      "date": "2026-03-01",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qf3",
+      "round": "Quarter-Final 3",
+      "roundIndex": 3,
+      "teamA": "kobra",
+      "teamB": "gladiator",
+      "fighterA": "arjun-dev",
+      "fighterB": "caio-ferreira",
+      "date": "2026-03-02",
+      "venue": "Global Arena",
+      "status": "completed"
+    },
+    {
+      "id": "qf4",
+      "round": "Quarter-Final 4",
+      "roundIndex": 4,
+      "teamA": "tokyo",
+      "teamB": "aussie",
+      "fighterA": "haruto-kato",
+      "fighterB": "kane-mcallister",
+      "date": "2026-03-02",
+      "venue": "Global Arena",
+      "status": "live"
+    },
+    {
+      "id": "sf1",
+      "round": "Semi-Final 1",
+      "roundIndex": 5,
+      "teamA": "kaiju",
+      "teamB": "luchadores",
+      "fighterA": "kenji-nakamura",
+      "fighterB": "rey-aguila",
+      "date": "2026-03-08",
+      "venue": "Global Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "sf2",
+      "round": "Semi-Final 2",
+      "roundIndex": 6,
+      "teamA": "kobra",
+      "teamB": "tokyo",
+      "fighterA": "ravi-shah",
+      "fighterB": "yuki-mori",
+      "date": "2026-03-08",
+      "venue": "Global Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "fin",
+      "round": "THE GRAND FINAL",
+      "roundIndex": 7,
+      "teamA": "luchadores",
+      "teamB": "tokyo",
+      "fighterA": "el-toro",
+      "fighterB": "kenta-ishikawa",
+      "date": "TBA",
+      "venue": "Global Arena",
+      "status": "scheduled"
+    }
+  ]
+}

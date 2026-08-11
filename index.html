@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRAND SLAAM TOURNAMENT</title>
+  <meta name="description" content="The Grand Slaam Tournament — professional wrestling's global title tournament." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <!-- Page transition curtain -->
+  <div class="transition" id="transition" aria-hidden="true">
+    <div class="transition__panel transition__panel--left"></div>
+    <div class="transition__panel transition__panel--right"></div>
+    <div class="transition__flash"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Left: 3 links -->
+      <nav class="nav-group nav-left" aria-label="Primary">
+        <a href="#/" data-route="/" class="nav-link">Home</a>
+        <a href="#/tournament" data-route="/tournament" class="nav-link">Tournament</a>
+        <a href="#/teams" data-route="/teams" class="nav-link">Teams</a>
+      </nav>
+
+      <!-- Center: logo -->
+      <a href="#/" class="brand" data-route="/" aria-label="Grand Slaam Tournament home">
+        <img src="assets/logo.svg" alt="Grand Slaam Tournament logo" class="brand__logo" />
+      </a>
+
+      <!-- Right: 3 links -->
+      <nav class="nav-group nav-right" aria-label="Secondary">
+        <a href="#/schedule" data-route="/schedule" class="nav-link">Schedule</a>
+        <a href="#/live" data-route="/live" class="nav-link nav-link--live">Live Stream</a>
+        <a href="#/contact" data-route="/contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Mobile toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu"></div>
+  </header>
+
+  <main id="app" class="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Grand Slaam Tournament. All rights reserved.</p>
+      <p class="footer-tag">FOUR COMPANIES. FOUR ATHLETES. ONE CHAMPION.</p>
+    </div>
+  </footer>
+
+  <!-- YouTube IFrame API -->
+  <div id="yt-api"></div>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/livechat.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

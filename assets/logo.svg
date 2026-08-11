@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Grand Slaam Tournament emblem">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e08b"/>
+      <stop offset="35%" stop-color="#e0b93f"/>
+      <stop offset="60%" stop-color="#caa22f"/>
+      <stop offset="100%" stop-color="#9a7318"/>
+    </linearGradient>
+    <linearGradient id="goldlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="100%" stop-color="#d8b13a"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="url(#goldlight)" stroke-width="1.5" opacity="0.7"/>
+  <!-- Hexagon -->
+  <polygon points="60,18 96,39 96,81 60,102 24,81 24,39"
+           fill="none" stroke="url(#gold)" stroke-width="4"/>
+  <!-- Crown emblem -->
+  <path d="M34 66 L34 46 L46 56 L60 40 L74 56 L86 46 L86 66 Z"
+        fill="url(#gold)" stroke="#5c4309" stroke-width="1.5"/>
+  <rect x="34" y="70" width="52" height="8" rx="2" fill="url(#gold)"/>
+  <!-- Star -->
+  <path d="M60 76 L64 86 L75 87 L67 94 L69 105 L60 99 L51 105 L53 94 L45 87 L56 86 Z"
+        fill="url(#goldlight)" stroke="#5c4309" stroke-width="1"/>
+</svg>

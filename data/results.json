@@ -1,0 +1,61 @@
+{
+  "_comment": "Match results. 'winner' and 'loser' reference member ids from data/fights.json. A member who loses is eliminated from the tournament (their picture greyscales). When all 4 members of a team have lost, the team shows an ELIMINATED alert.",
+  "results": [
+    {
+      "fightId": "qa1",
+      "winner": "lucas-almeida",
+      "loser": "rico-santana",
+      "method": "Pinfall",
+      "time": "11:20",
+      "date": "2026-02-20"
+    },
+    {
+      "fightId": "qa2",
+      "winner": "jack-bauer",
+      "loser": "jax-marlow",
+      "method": "Submission",
+      "time": "08:44",
+      "date": "2026-02-20"
+    },
+    {
+      "fightId": "qa3",
+      "winner": "el-fantasma",
+      "loser": "damon-cross",
+      "method": "Pinfall",
+      "time": "13:07",
+      "date": "2026-02-21"
+    },
+    {
+      "fightId": "qf1",
+      "winner": "kenji-nakamura",
+      "loser": "axel-vaughn",
+      "method": "Pinfall",
+      "time": "12:34",
+      "date": "2026-03-01"
+    },
+    {
+      "fightId": "qf2",
+      "winner": "el-dorado",
+      "loser": "alistair-graves",
+      "method": "Submission",
+      "time": "18:22",
+      "date": "2026-03-01"
+    },
+    {
+      "fightId": "qf3",
+      "winner": "arjun-dev",
+      "loser": "caio-ferreira",
+      "method": "Pinfall",
+      "time": "09:45",
+      "date": "2026-03-02"
+    },
+    {
+      "fightId": "sf1",
+      "winner": "rey-aguila",
+      "loser": "kenji-nakamura",
+      "method": "Pinfall",
+      "time": "14:03",
+      "date": "2026-03-08"
+    }
+  ]
+}
